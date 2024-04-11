@@ -31,7 +31,7 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="md:hidden cursor-pointer pr-4 text-gray-500"
+        className="md:hidden cursor-pointer pr-4 text-gray-500 hover:text-white"
       >
         {nav ? (
           <FaTimes size={20} />
@@ -45,7 +45,7 @@ const NavBar = () => {
           {links.map((link) => (
             <li
               key={link.id}
-              className="py-6 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+              className="py-6 cursor-pointer hover:text-white capitalize font-medium text-gray-500 hover:scale-105 duration-200"
             >
               {link.link}
             </li>
