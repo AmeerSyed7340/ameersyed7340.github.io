@@ -13,8 +13,8 @@ function App() {
       <Home />
       <Socials />
       <About />
-      <Portfolio />
       <Experience />
+      <Portfolio />
       <Contact />
     </div>
   );
