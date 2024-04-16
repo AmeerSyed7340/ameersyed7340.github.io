@@ -71,7 +71,7 @@ const Experience = () => {
                     <p className='py-6'>These is the tech stack that I am familiar with </p>
                 </div>
 
-                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0'>
                     {techStaacks.map(({ id, src, title, style }) => (
                         <div key={id} className={'shadow-md hover:scale-105 duration-500 py2 rounded-lg' + " " + style}>
                             <img src={src} alt="" className='w-20 mx-auto' />
