@@ -1,6 +1,7 @@
 import React from "react";
 import realState from "../assets/portfolio/realestate.jpg";
 import workImage from "../assets/portfolio/workImg.jpeg";
+import covidDashboard from "../assets/portfolio/COVID_Dashboard.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -10,7 +11,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: workImage,
+      src: covidDashboard,
     },
     {
       id: 3,
@@ -41,12 +42,23 @@ const Portfolio = () => {
               />
 
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a
+                  href="https://ameersyed7340.github.io/COVID-19_dashboard/"
+                  className="w-1/2 m-4"
+                >
+                  <button className="px-6 py-3 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/AmeerSyed7340/COVID-19_dashboard"
+                  className="w-1/2 m-4"
+                >
+                  <button className="px-6 py-3 duration-200 hover:scale-105">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
