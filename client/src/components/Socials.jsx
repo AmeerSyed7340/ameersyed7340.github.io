@@ -39,7 +39,7 @@ const Socials = () => {
           Resume <BsFillPersonLinesFill size={25} />
         </>
       ),
-      href: "/AmeerSyed_Resume.pdf",
+      href: "/portfolio-react/AmeerSyed_Resume.pdf",
       style: "rounded-br-md",
     },
   ];
