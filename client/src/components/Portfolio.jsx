@@ -1,13 +1,13 @@
 import React from "react";
-import realState from "../assets/portfolio/realestate.jpg";
-import workImage from "../assets/portfolio/workImg.jpeg";
+import sevenWoks from "../assets/portfolio/sevenwoks.jpg";
 import covidDashboard from "../assets/portfolio/COVID_Dashboard.jpg";
+import fakeStore from "../assets/portfolio/fakestore.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: realState,
+      src: sevenWoks,
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: realState,
+      src: fakeStore,
     },
   ];
 

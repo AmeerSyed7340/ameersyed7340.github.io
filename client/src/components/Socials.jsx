@@ -41,7 +41,6 @@ const Socials = () => {
       ),
       href: "/AmeerSyed_Resume.pdf",
       style: "rounded-br-md",
-      download: true,
     },
   ];
 
@@ -60,7 +59,6 @@ const Socials = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
               target="_blank"
               rel="noreferrer"
             >
