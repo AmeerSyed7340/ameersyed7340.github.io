@@ -8,14 +8,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: sevenWoks,
+      linkDemo: "https://shino022.github.io/project_enid/",
+      linkRepo: "https://github.com/eynid/project_enid"
     },
     {
       id: 2,
       src: covidDashboard,
+      linkDemo: "https://ameersyed7340.github.io/COVID-19_dashboard/",
+      linkRepo: "https://github.com/AmeerSyed7340/COVID-19_dashboard"
     },
     {
       id: 3,
       src: fakeStore,
+      linkDemo: "https://ameersyed7340.github.io/Shopping-Cart/",
+      linkRepo: "https://github.com/AmeerSyed7340/Shopping-Cart"
     },
   ];
 
@@ -33,7 +39,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, linkDemo, linkRepo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -43,7 +49,7 @@ const Portfolio = () => {
 
               <div className="flex items-center justify-center">
                 <a
-                  href="https://ameersyed7340.github.io/COVID-19_dashboard/"
+                  href={linkDemo}
                   className="w-1/2 m-4"
                 >
                   <button className="px-6 py-3 duration-200 hover:scale-105">
@@ -52,7 +58,7 @@ const Portfolio = () => {
                 </a>
 
                 <a
-                  href="https://github.com/AmeerSyed7340/COVID-19_dashboard"
+                  href={linkRepo}
                   className="w-1/2 m-4"
                 >
                   <button className="px-6 py-3 duration-200 hover:scale-105">
