@@ -11,7 +11,7 @@ const Socials = () => {
           LinkedIn <FaLinkedin size={25} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/ameer-syed-ab5172286/",
       style: "rounded-tr-md",
     },
     {

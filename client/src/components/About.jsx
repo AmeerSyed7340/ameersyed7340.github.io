@@ -12,24 +12,14 @@ const About = () => {
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
 
-        <p className='text-xl mt-20 '>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sit
-          placeat ad illo error minus rem iure harum, tempora maiores recusandae
-          dolores, officiis animi dignissimos mollitia, pariatur eaque! Ipsam
-          illo iure nisi animi optio vitae! Saepe, modi? Vel molestiae
-          perspiciatis enim ab est nisi placeat doloribus facere! Omnis, quae
-          neque?
+        <p className='text-xl mt-5'>
+          I am Ameer Syed, a Full Stack Developer from Queens, NY, with a Computer Science degree from Queens College. Skilled in the MERN stack, I develop responsive, user-focused web solutions that effectively combine user needs with robust technology.
         </p>
 
         <br />
 
         <p className='text-xl'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure
-          numquam delectus harum deserunt dignissimos veniam eos. Nisi,
-          exercitationem voluptatibus natus sed, reiciendis tenetur deleniti
-          saepe pariatur tempora, incidunt aliquid placeat porro doloremque! Ut
-          ipsam odit quod repudiandae. Excepturi, asperiores optio sunt iusto
-          perferendis provident numquam maiores officia tempore dicta.
+          Currently, I am advancing my expertise through a full-stack project that features API integration and cloud-based operations, demonstrating my ability to handle complex software development tasks efficiently. My goal is to continuously refine my skills and contribute to innovative technology projects.
         </p>
       </div>
     </div>
